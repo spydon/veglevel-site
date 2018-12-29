@@ -6,6 +6,6 @@ gulp js; \
 mkdir output; \
 cp -r css img privacy.txt index.html js vendor output && \
 cd output && \
-aws s3 sync . s3://mindlevel.net && \
+aws s3 sync . s3://veglevel.com && \
 echo "Sync complete"
 
